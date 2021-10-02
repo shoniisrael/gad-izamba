@@ -1,615 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- SEO Meta Tags -->
-        <meta name="description" content="Pavo is a mobile app Tailwind CSS HTML template created to help you present benefits, features and information about mobile apps in order to convince visitors to download them" />
-        <meta name="author" content="Your name" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-        <meta property="og:site_name" content="" /> <!-- website name -->
-        <meta property="og:site" content="" /> <!-- website link -->
-        <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
-        <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-        <meta name="twitter:card" content="summary_large_image" /> <!-- to have large image post format in Twitter -->
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Pavo is a mobile app Tailwind CSS HTML template created to help you present benefits, features and information about mobile apps in order to convince visitors to download them" />
+    <meta name="author" content="Your name" />
 
-        <!-- Webpage Title -->
-        <title>Gad IZAMBA</title>
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+    <meta property="og:site_name" content="" /> <!-- website name -->
+    <meta property="og:site" content="" /> <!-- website link -->
+    <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image" /> <!-- to have large image post format in Twitter -->
 
-        <!-- Styles -->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
-        <link href="css/fontawesome-all.css" rel="stylesheet" />
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
-        <link href="css/swiper.css" rel="stylesheet" />
-        <link href="css/magnific-popup.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+    <!-- Webpage Title -->
+    <title>Gad IZAMBA</title>
 
-        <!-- Favicon  -->
-        <link rel="icon" href="images/favicon.png" />
-    </head>
-    <body data-spy="scroll" data-target=".fixed-top">   
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
 
-        <!-- Navigation -->
-        <nav class="navbar fixed-top">
-            <div class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
-                
-                <!-- Text Logo - Use this if you don't have a graphic logo -->
-                <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">IZAMBA</a>
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png" />
+</head>
 
-                <!-- Image Logo -->
-                <!-- <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
-                    <img src="images/logo.svg" alt="alternative" class="h-8" />
-                </a> -->
+<body data-spy="scroll" data-target=".fixed-top">
 
-                <button class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
-                    <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
-                </button>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top">
+        <div class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
 
-                <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
-                    <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
-                        <li>
-                            <a class="nav-link page-scroll active" href="#header"> <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li>
-                            <a class="nav-link page-scroll" href="#TIPOS">TIPOS</a>
-                        </li>
-                        <li>
-                            <!-- <a class="nav-link page-scroll" href="#details">Details</a>
-                        </li> -->
-                        <li>
-                            <a class="nav-link page-scroll" href="#pricing">Historia</a>
-                        </li>
-                        <li class="dropdown">
-                            <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a> -->
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item page-scroll" href="article.html">Article Details</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
+            <a class="inline-block mr-1 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline"
+                href="index.html">
+                <img src="images/logo.png" alt="alternative" class="h-12 md:h-16 lg:h-24" />
+            </a>
+
+            <button
+                class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400"
+                type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center"
+                id="navbarsExampleDefault">
+                <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
+                    <li>
+                        <a class="nav-link page-scroll active" href="#header"> <span
+                                class="sr-only">(current)</span></a>
+                    </li>              
+                    <li>
+                        <a class="nav-link page-scroll" href="#informacion">Informacion</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tipos</a> 
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item page-scroll" href="#arquitectura">Arquitectura</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="#folcklore">Folcklore</a>
+                                                        
+                        </div>
+                    </li>
+
+                </ul>
+                <span class="block lg:ml-3.5">
+                    <a class="no-underline" href="https://www.facebook.com/GAD-Parroquial-Izamba-486192714921253">
+                        <i
+                            class="fab fa-facebook text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200 mr-1.5"></i>
+                    </a>
+                    <a class="no-underline" href="https://gadizamba.gob.ec/index.php">
+                        <i
+                            class="fas fa-globe text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navigation -->
+
+    <!-- Header -->
+    <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+        <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
+            <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
+                <h1 class="text-2xl md:text-4xl leading-10 mb-5">MANIFESTACIONES CULTURALES DE IZAMBA</h1>
+                <p class="p-large mb-8">Las manifestaciones culturales son todas las expresiones y sentimientos que
+                    reflejan la identidad cultural, social y los valores de una comunidad, que son comunicadas y
+                    transmitidas de una generación a otra</p>
+            </div>
+            <div class="xl:text-right">
+                <img class="inline" src="images/header-smartphone.png" alt="alternative" />
+            </div>
+        </div> <!-- end of container -->
+    </header>
+    <!-- end of header -->
+
+
+    <!-- Introduction -->
+    <div class="pt-4 pb-14 text-center">
+        <div class="container px-4 sm:px-8 xl:px-4">
+            <p class="mb-4 text-gray-800 text-xl md:text-3xl leading-10 lg:max-w-5xl lg:mx-auto"> La arquitectura y el
+                folcklore izambeños se ven plasmados de diversas maneras. Hagamos un recorrido por las difenetes
+                manifestaciones culturales de la hermosa parroquia de Izamba</p>
+        </div>
+    </div>
+    <!-- end of introduction -->
+
+
+
+    <!-- ARQUITECTURA  -->
+    <div id="arquitectura" class="py-24">
+        <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+            <div class="lg:col-span-7">
+                <div class="mb-12 lg:mb-0 xl:mr-14">
+                    <img class="inline" src="images/arquitectura.jpg" alt="alternative" />
+                </div>
+            </div>
+            <div class="lg:col-span-5">
+                <div class="xl:mt-12">
+                    <h2 class="mb-6">ARQUITECTURA</h2>
+                    <ul class="list mb-7 space-y-2">
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Histórica (Civil, Religiosa, Militar,
+                                Vernácula)
                             </div>
                         </li>
-                        <li>                                                                                                                                                                                                                                a
-                            <!-- <a class="nav-link page-scroll" href="#download">Download</a> -->
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Museos</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Espacio Público
+                            </div>
                         </li>
                     </ul>
-                    <span class="block lg:ml-3.5">
-                        <a class="no-underline" href="#your-link">
-                            <i class="fab fa-apple text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200 mr-1.5"></i>
-                        </a>
-                        <a class="no-underline" href="#your-link">
-                            <i class="fab fa-android text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200"></i>
-                        </a>
-                    </span>
-                </div> <!-- end of navbar-collapse -->
-            </div> <!-- end of container -->
-        </nav> <!-- end of navbar -->
-        <!-- end of navigation -->
-
-        <!-- Header -->
-        <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
-                <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
-                    <h1 class="h1-large mb-5">MANIFESTACIONES CULTURALES DE IZAMBA</h1>
-                    <p class="p-large mb-8">Las manifestaciones culturales son todas las expresiones y sentimientos que reflejan la identidad cultural, social y los valores de una comunidad, que son comunicadas y transmitidas de una generación a otra</p>
-                    <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>Download</a>
-                    <a class="btn-solid-lg secondary" href="#your-link"><i class="fab fa-google-play"></i>Download</a>
+                    <a class="btn-solid-reg " href="arquitectura.html">Ver Subtipos</a>
+                    
                 </div>
-                <div class="xl:text-right">
-                    <img class="inline" src="images/header-smartphone.png" alt="alternative" />
-                </div>
-            </div> <!-- end of container -->
-        </header> <!-- end of header -->
-        <!-- end of header -->
-
-
-        <!-- Introduction -->
-        <div class="pt-4 pb-14 text-center">
-            <div class="container px-4 sm:px-8 xl:px-4">
-                <p class="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"> La arquitectura y el folcklore izambeños se ven plasmados de diversas maneras. Hagamos un recorrido por las difenetes manifestaciones culturales de la hermosa parroquia de Izamba</p>
-            </div> <!-- end of container -->
-        </div>
-        <!-- end of introduction -->
-
-
-        <!-- Features -->
-        <div id="TIPOS" class="cards-1">
-            <div class="container px-4 sm:px-8 xl:px-4">
-
-                <!-- Card -->
-                <!-- <div class="card">
-                    <div class="card-image">
-                        <img src="images/features-icon-1.jpg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">ARQUITECTURA</h5>
-                        <p class="mb-4"> Histórica, Museos, Espacio Público.                           
-                            </p>
-                    </div>
-                </div> -->
-                <!-- end of card -->
-
-                <!-- Card -->
-                <!-- <div class="card">
-                    <div class="card-image">
-                        <img src="images/features-icon-2.jpg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">FOLCKLORE</h5>
-                        <p class="mb-4">Fiestas religiosas, tradiciones y
-                            creencias populares, Artesanías y artes , Ferias y mercados
-                            Música y danza, Gastronomía                        </p>
-                    </div>
-                </div> -->
-                <!-- end of card -->
-
-                <!-- Card -->
-                <!-- <div class="card"> -->
-                    <!-- <div class="card-image">
-                        <img src="images/features-icon-3.jpg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Fiestas de la Virgen de las nieves</h5>
-                        <p class="mb-4">Cada año el 5 de agosto se celebra la fiesta en honor a la Virgen de las Nieves la cual llego desde Italia en el año de 1615, la cual fue traída desde el puerto de Guayaquil a lomo de burro. Esta imagen ha sido protectora de los campos para que no existan plagas y los cultivos no se destruyan, los izambeños realizan las fiestas en devoción y agradecimiento a su santa patrona</p>
-                    </div>
-                </div> --> -->
-                <!-- end of card
-
-                <!-- Card -->
-                <!-- <div class="card">
-                    <div class="card-image">
-                        <img src="images/features-icon-4.svg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Multiple Languages</h5>
-                        <p class="mb-4">Choose from one of the 40 languages that come pre-installed and start selling smarter</p>
-                    </div>
-                </div> -->
-                <!-- end of card -->
-
-                <!-- Card -->
-                <!-- <div class="card"> -->
-                    <!-- <div class="card-image">
-                        <img src="images/features-icon-5.svg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Free Updates</h5>
-                        <p class="mb-4">Don't worry about future costs, pay once and receive all future updates at no extra cost</p>
-                    </div>
-                </div> -->
-                <!-- end of card -->
-
-                <!-- Card -->
-                <!-- <div class="card">
-                    <div class="card-image">
-                        <img src="images/features-icon-6.svg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Community Support</h5>
-                        <p class="mb-4">Register the app and get acces to knowledge and ideas from the Pavo online community</p>
-                    </div>
-                </div> -->
-                <!-- end of card -->
-
-            </div> <!-- end of container -->
-        </div> <!-- end of cards-1 -->
-        <!-- end of features -->
-
-
-        <!-- Details 1 -->
-        <!-- <div id="details" class="pt-12 pb-16 lg:pt-16">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-5">
-                    <div class="mb-16 lg:mb-0 xl:mt-16">
-                        <h2 class="mb-6">Iglesia Católica San Jacinto de Izamba</h2>
-                        <p class="mb-4">La iglesia de San Jacinto de Izamba se construyó en el año de 1615, cabe destacar que fueron los habitantes del lugar quienes con su esfuerzo cumplieron con el propósito de construcción. 
-                            El diseño de la iglesia es clásico romano, denominación que hace reseña al espacio de tiempo clásico de la antigua Roma en donde se caracteriza por la racionalidad y funcionalidad. Esta es una arquitectura en donde se resalta la monumentalidad, a manera de expresar superioridad y poder, en este estilo también se caracteriza por el orden toscano, jónico y corintio.
-                            </p>
-                        <p class="mb-4">En el terremoto del 5 de agosto de 1949 se derrumbó una de sus dos torres y de la misma manera su reloj que fue traído de Alemania, fueron las familias izambeñas quienes repararon la iglesia.  </p>
-                    </div>
-                </div> end of col
-                <div class="lg:col-span-7">
-                    <div class="xl:ml-14">
-                        <img class="inline" src="images/details-1.jpg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of container -->
-        </div> -->
-        end of details 1
-
-
-        <!-- Details 2 -->
-        <div class="py-24">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-7">
-                    <div class="mb-12 lg:mb-0 xl:mr-14">
-                        <img class="inline" src="images/details-2.jpg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-                <div class="lg:col-span-5">
-                    <div class="xl:mt-12">
-                        <h2 class="mb-6">ARQUITECTURA</h2>
-                        <ul class="list mb-7 space-y-2">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Histórica (Civil, Religiosa, Militar,
-                                    Vernácula)
-                                    </div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Museos</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Espacio Público
-                                </div>
-                            </li>
-                        </ul>
-                        <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Lightbox</a>
-                        <a class="btn-outline-reg" href="article.html">Detalles</a>
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of container -->
-        </div>
-        <!-- end of details 2 -->
-
-<!-- Details 2 -->
-<div class="py-24">
-    <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-        <div class="lg:col-span-7">
-            <div class="mb-12 lg:mb-0 xl:mr-14">
-                <img class="inline" src="images/details-2.jpg" alt="alternative" />
             </div>
-        </div> <!-- end of col -->
-        <div class="lg:col-span-5">
-            <div class="xl:mt-12">
-                <h2 class="mb-6">Folcklore</h2>
-                <ul class="list mb-7 space-y-2">
-                    <li class="flex">
-                        <i class="fas fa-chevron-right"></i>
-                        <div>Fiestas religiosas, tradiciones y
-                            creencias populares
+        </div>
+    </div>
+    <!-- end of ARQUITECTURA  -->
+
+    <!-- folcklore  -->
+    <div id="folcklore" class="py-24">
+        <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+            <div class="lg:col-span-5">
+                <div class="xl:mt-12">
+                    <h2 class="mb-6">Folcklore</h2>
+                    <ul class="list mb-7 space-y-2">
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Fiestas religiosas, tradiciones y
+                                creencias populares
                             </div>
-                    </li>
-                    <li class="flex">
-                        <i class="fas fa-chevron-right"></i>
-                        <div>Artesanías y artes </div>
-                    </li>
-                    <li class="flex">
-                        <i class="fas fa-chevron-right"></i>
-                        <div>Ferias y mercados
-                        </div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Artesanías y artes </div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Ferias y mercados
+                            </div>
                         <li class="flex">
                             <i class="fas fa-chevron-right"></i>
                             <div>Música y danza
-                            </div><li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Gastronomía
-                                </div>
-                    </li>
-                </ul>
-                <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Lightbox</a>
-                <a class="btn-outline-reg" href="article.html">Details</a>
-            </div>
-        </div> <!-- end of col -->
-    </div> <!-- end of container -->
-</div>
-<!-- end of details 2 -->
-        <!-- Details Lightbox -->
-        <!-- Lightbox -->
-        <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
-            <div class="lg:grid lg:grid-cols-12 lg:gap-x-8">
-                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-                <div class="lg:col-span-8">
-                    <div class="mb-12 text-center lg:mb-0 lg:text-left xl:mr-6">
-                        <img class="inline rounded-lg" src="images/details-lightbox.jpg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-                <div class="lg:col-span-4">
-                    <h3 class="mb-2">Goals Setting</h3>
-                    <hr class="w-11 h-0.5 mt-0.5 mb-4 ml-0 border-none bg-indigo-600" />
-                    <p>The app can easily help you track your personal development evolution if you take the time to set it up.</p>
-                    <h4 class="mt-7 mb-2.5">User Feedback</h4>
-                    <p class="mb-4">This is a great app which can help you save time and make your live easier. And it will help improve your productivity.</p>
-                    <ul class="list mb-6 space-y-2">
+                            </div>
                         <li class="flex">
                             <i class="fas fa-chevron-right"></i>
-                            <div>Splash screen panel</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Statistics graph report</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Events calendar layout</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Location details screen</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Onboarding steps interface</div>
+                            <div>Gastronomía
+                            </div>
                         </li>
                     </ul>
-                    <a class="btn-solid-reg mfp-close page-scroll" href="#download">Download</a>
-                    <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of lightbox-basic -->
-        <!-- end of lightbox -->
-        <!-- end of details lightbox -->
+
+                    <a class="btn-solid-reg" href="folcklore.html">Ver Subtipos</a>
+                </div>
+            </div>
+            <div class="lg:col-span-7">
+                <div class="mb-12 lg:mb-0 xl:mr-14">
+                    <img class="inline" src="images/folcklore.jpg" alt="alternative" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end  folcklore  -->
 
 
-        <!-- Details 3 -->
-        <!-- <div class="pt-16 pb-12">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-5">
-                    <div class="mb-16 lg:mb-0 xl:mt-16">
-                        <h2 class="mb-6">Platform integration and life time free updates</h2>
-                        <p class="mb-4">Get a glimpse of what this app can do for your marketing automation and understand why current users are so excited when using Pavo
-                            together with their teams.</p>
-                        <p class="mb-4">We will promptly answer any questions and honor your requests based on the service level agreement</p>
+
+
+    <!-- Testimonials -->
+    <div class="slider-1 py-32 bg-gray">
+        <div class="container px-4 sm:px-8">
+            <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">LUGARES Y PERSONAS DESTACADAS</h2>
+
+            <!-- Card Slider -->
+            <div class="slider-container">
+                <div class="swiper-container card-slider">
+                    <div class="swiper-wrapper">
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images/testimonial-1.jpeg" alt="alternative" />
+                                <div class="card-body">
+                                    <p class="italic mb-3">Lugar en donde se puede observar la hermosa iglesia izambeña
+                                        y alrededor la construcción de viviendas con piedras talladas de la época de la
+                                        colonia</p>
+                                    <p class="testimonial-author">Parque central Alfonso Troya</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images/testimonial-2.jpeg" alt="alternative" />
+                                <div class="card-body">
+                                    <p class="italic mb-3">El seños Anibal Puca, heredó el arte de su padre quien empezó
+                                        a compartir su pasión a la edad de 14 años</p>
+                                    <p class="testimonial-author">Arpista de la Parroquia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images/testimonial-3.jpeg" alt="alternative" />
+                                <div class="card-body">
+                                    <p class="italic mb-3">Las famosas fritadas, que llevan varias generaciones
+                                        elaborando estos deliciosos platos de manera tradicional</p>
+                                    <p class="testimonial-author">Gastronomía izambeña</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images/testimonial-4.jpg" alt="alternative" />
+                                <div class="card-body">
+                                    <p class="italic mb-3">Construcción del año 1615, su diseño es clásico romano. Una
+                                        de sus torres tiene un relog que fué traido desde Alemania. </p>
+                                    <p class="testimonial-author">Arquitectura de Izamba</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images/testimonial-5.jpg" alt="alternative" />
+                                <div class="card-body">
+                                    <p class="italic mb-3">EL museo consta con una exhibición de arte religioso, las
+                                        guianzas las hacen un grupo de jóvenes voluntarios de la igleisa. </p>
+                                    <p class="testimonial-author">Centro cultural</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images/testimonial-6.jpg" alt="alternative" />
+                                <div class="card-body">
+                                    <p class="italic mb-3">Lugar de encuentro donde los campesinos del área exponen
+                                        periódicamente sus productos para comercializar.</p>
+                                    <p class="testimonial-author">Feria de productividad y progreso</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of slide -->
+
                     </div>
-                </div> <!-- end of col -->
-                <!-- <div class="lg:col-span-7">
-                    <div class="ml-14">
-                        <img class="inline" src="images/details-3.jpg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of container -->
-        </div> --> -->
-        <!-- end of details 3 -->
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- end of add arrows -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of testimonials -->
 
 
-        <!-- Statistics -->
-        <!-- <div class="counter">
-            <div class="container px-4 sm:px-8">
-                
-                <!-- Counter -->
-                <!-- <div id="counter">
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="4556">1</div>
-                        <p class="counter-info">HOY</p> -->
-                    <!-- </div>
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="385">1</div>
-                        <p class="counter-info">Eventos programados </p>
-                    </div>
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="1593">1</div>
-                        <p class="counter-info"></p> -->
-                    <!-- </div>
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="127">1</div>
-                        <p class="counter-info">Case Studies</p>
-                    </div>
-                    <div class="cell"> -->
-                        <!-- <div class="counter-value number-count" data-count="211">1</div>
-                        <p class="counter-info">Orders Received</p>
-                    </div>
-                </div> --> -->
-                end of counter
+    <!-- informacion -->
+    <div id="informacion" class="cards-2">
+        <div class="absolute bottom-0 h-40 w-full bg-white"></div>
+        <div class="container px-4 pb-px sm:px-8">
+            <h2 class="mb-2.5 text-white lg:max-w-xl lg:mx-auto">IZAMBA</h2>
+            <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto"> Una de las parroquias más antiguas de Ambato, este
+                poblado ya existia en la época en la que los españoles empezaron con la conquista </p>
+            <!-- Card Autoridades-->
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title">AUTORIDADES</div>
 
-            </div> <!-- end of container -->
-        </div> end of counter
-        <!-- end of statistics -->
+                    <p>El GAD Parroquial de Izamba está conformado por siete integrantes distribuidos de la siguiente manera:</p>
+                    <ul class="list mb-7 text-left space-y-2">
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div> PRESIDENTE: Sr. Nestor Daniel Castro Reyes</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>VICEPRESIDENTE: Econ. Magdalena Alexandra Arcos Acosta</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>VOCAL 1:Sr. Luis Alejandro Castro Escobar</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div> VOCAL 2: Sra. Inés Mariana de Jesus Ronquill</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div> VOCAL 3: Ing. Cesar Fransisco López Gómez</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div> SECRETARIA: Ing. Gabriela Villacres</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div> CONTADORA: Ing. Isabel Mangui</div>
+                        </li>
+                    </ul>
 
+                </div>
+            </div>
+            <!-- end of card -->
+            <!-- Card-->
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title">UBICACIÓN</div>
 
-        <!-- Testimonials -->
-        <div class="slider-1 py-32 bg-gray">
-            <div class="container px-4 sm:px-8">
-                <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">LUGARES Y PERSONAS DESTACADAS</h2>
+                    <p>La
+                        parroquia se encuentra al norte de la ciudad, se caracteriza por ser productora comercializadora
+                        y
+                        exportadora de legumbres y hortalizas</p>
+                    <ul class="list mb-7 space-y-2 text-left">
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Límites: Limita con las prroquias Unamuncho, río Ambato, Atahualpa y el río Culapachán
+                            </div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Distancia: Por la panamericana Norte a 5 km de la ciudad de Ambato</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Superficie: 27,2 km</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Altura Promedio: 2500 msnm</div>
+                        </li>
+                    </ul>
 
-                <!-- Card Slider -->
-                <div class="slider-container">
-                    <div class="swiper-container card-slider">
-                        <div class="swiper-wrapper">
-                            
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-1.jpeg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">Lugar en donde se puede observar la hermosa iglesia izambeña y alrededor la construcción de viviendas con piedras talladas de la época de la colonia</p>
-                                        <p class="testimonial-author">Parque central Alfonso Troya</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
+                </div>
+            </div>
+            <!-- end of card -->
+            <!-- Card-->
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title">HISTORIA</div>
+                    <p>San Jacinto de Izamba fue fundada el 16 de junio de 1533 por Sebastián de
+                        Benalcázar, sus límites fueron extendidos en 1539 por el capitán Gonzalo Pizarro.</p>
 
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-2.jpeg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">El seños Anibal Puca, heredó el arte de su padre quien empezó a compartir su pasión a la edad de 14 años</p>
-                                        <p class="testimonial-author">Arpista de la Parroquia</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-3.jpeg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">Las famosas fritadas, que llevan varias generaciones elaborando estos deliciosos platos de manera tradicional</p>
-                                        <p class="testimonial-author">Gastronomía izambeña</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-4.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">Construcción del año 1615, su diseño es clásico romano. Una de sus torres tiene un relog que fué traido desde Alemania. </p>
-                                        <p class="testimonial-author">Arquitectura de Izamba</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-5.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">EL museo consta con una exhibición de arte religioso, las guianzas las hacen un grupo de jóvenes voluntarios de la igleisa. </p>
-                                        <p class="testimonial-author">Centro cultural</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-6.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">Lugar de encuentro donde los campesinos del área exponen periódicamente sus productos para comercializar.</p>
-                                        <p class="testimonial-author">Feria de productividad y progreso</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                        </div> <!-- end of swiper-wrapper -->
-
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <!-- end of add arrows -->
-
-                    </div> <!-- end of swiper-container -->
-                </div> <!-- end of slider-container -->
-                <!-- end of card slider -->
-
-            </div> <!-- end of container -->
-        </div> <!-- end of slider-1 -->
-        <!-- end of testimonials -->
-
-
-        <!-- Pricing -->
-        <div id="pricing" class="cards-2">
-            <div class="absolute bottom-0 h-40 w-full bg-white"></div>
-            <div class="container px-4 pb-px sm:px-8">
-                <h2 class="mb-2.5 text-white lg:max-w-xl lg:mx-auto">IZAMBA</h2>
-                <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto"> Una de las parroquias más antiguas de Ambato, este poblado ya existia en la época en la que los españoles empezaron con la conquista </p>
-
-                <!-- Card-->
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-title"></div>
-                        <div class="price"><span class="currency"></span><span class="value"></span></div>
-                        <div class="frequency">San Jacinto de Izamba fue fundada el 16 de junio de 1533 por Sebastián de Benalcázar, sus límites fueron extendidos en 1539 por el capitán Gonzalo Pizarro.</div>La parroquia se encuentra al norte de la ciudad, se caracteriza por ser productora comercializadora y exportadora de legumbres y hortalizas</p>
-                        <ul class="list mb-7 space-y-2 text-left">
-                            <li class="flex">
-                                <!-- <i class="fas fa-chevron-right"></i>
+                    <ul class="list mb-7 space-y-2 text-left">
+                        <li class="flex">
+                            <!-- <i class="fas fa-chevron-right"></i>
                                 <!-- <div>Danzas</div>
                             </li>
                             <li class="flex"> -->
-                                <!-- <i class="fas fa-chevron-right"></i> -->
-                                <div>Izamba es un nombre compuesto después del matrimonio de los incas Iza y Hamba.</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>IZA "regulo de Dios"</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Hamba "Guardian del templo del sol"</div>
-                            </li>
-                        </ul>
-                        <div class="button-wrapper"> -->
-                            <!-- <a class="btn-solid-reg page-scroll" href="#download">Download</a> -->
-                        </div>
+                            <!-- <i class="fas fa-chevron-right"></i> -->
+                            <div>Izamba es un nombre compuesto después del matrimonio de los incas Iza y Hamba.</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>IZA "regulo de Dios"</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Hamba "Guardian del templo del sol"</div>
+                        </li>
+                    </ul>
+                    <div class="button-wrapper"> -->
+                        <!-- <a class="btn-solid-reg page-scroll" href="#download">Download</a> -->
                     </div>
-                </div> <!-- end of card -->
-                <!-- end of card -->
-
-                <!-- Card-->
-                <!-- <div class="card"> -->
-                    <!-- <div class="card-body">
-                        <div class="card-title">ADVANCED</div>
-                        <div class="price"><span class="currency">$</span><span class="value">39</span></div>
-                        <div class="frequency">monthly</div>
-                        <p>This is a more advanced package suited for medium companies</p>
-                        <ul class="list mb-7 space-y-2 text-left">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>List building and relations</div> -->
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Seamless platform integration</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Great performance on devices</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Community support and videos</div>
-                            </li>
-                        </ul>
-                        <div class="button-wrapper">
-                            <a class="btn-solid-reg page-scroll" href="#download">Download</a>
-                        </div>
-                    </div>
-                </div> <!-- end of card -->
-                <!-- end of card -->
-
-                <!-- Card-->
-                <!-- <div class="card">
-                    <div class="card-body">
-                        <div class="card-title">COMPLETE</div>
-                        <div class="price"><span class="currency">$</span><span class="value">49</span></div>
-                        <div class="frequency">monthly</div>
-                        <p>This is a comprehensive package designed for big organizations</p>
-                        <ul class="list mb-7 text-left space-y-2">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>List building and relations</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Seamless platform integration</div> -->
-                            <!-- </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Great performance on devices</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Community support and videos</div>
-                            </li> -->
-                        <!-- </ul>
-                        <div class="button-wrapper">
-                            <a class="btn-solid-reg page-scroll" href="#download">Download</a> -->
-                        </div>
-                    </div>
-                </div> <!-- end of card -->
-                <!-- end of card -->
-
-            </div> <!-- end of container -->
-        </div> <!-- end of cards-2 -->
-        <!-- end of pricing -->
+                </div>
+            </div> <!-- end of card -->
+            <!-- end of card -->
 
 
-        <!-- Conclusion -->
-        <!-- <div id="download" class="basic-5">
+
+
+
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-2 -->
+    <!-- end of informacion -->
+
+
+    <!-- Conclusion -->
+    <!-- <div id="download" class="basic-5">
             <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
                 <div class="mb-16 lg:mb-0">
                     <img src="images/conclusion-smartphone.png" alt="alternative" />
@@ -618,67 +432,49 @@
                     <p class="mb-9 text-gray-800 text-3xl leading-10">Team management mobile applications don’t get much better than Pavo. Download it today</p>
                     <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>Download</a>
                     <a class="btn-solid-lg secondary" href="#your-link"><i class="fab fa-google-play"></i>Download</a> -->
-                </div>
-            </div> <!-- end of container -->
-        </div> <!-- end of basic-5 -->
-        <!-- end of conclusion -->
+    </div>
+    </div> <!-- end of container -->
+    </div> <!-- end of basic-5 -->
+    <!-- end of conclusion -->
 
 
-        <!-- Footer -->
-        <div class="footer">
-            <div class="container px-4 sm:px-8">
-                <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">Las manifestaciones culturales de la parroquia Izamba son de relevancia para promover el turismo en el lugar con la colaboración del GAD Parroquial que se dedica a organizar eventos que generan atracción. <a class="text-indigo-600 hover:text-gray-500" href="mailto:email@domain.com"></a></h4>
-                <div class="social-container">
-                    <span class="fa-stack">
-                        <a href="https://www.facebook.com/GAD-Parroquial-Izamba-486192714921253">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <!-- <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i> -->
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <!-- <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                        </a> -->
-                    <!-- </span>
-                    <span class="fa-stack">
-                        <a href="#your-link"> -->
-                            <!-- <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-instagram fa-stack-1x"></i>
-                        </a> -->
-                    <!-- </span>
-                    <span class="fa-stack">
-                        <a href="#your-link"> -->
-                            <!-- <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-youtube fa-stack-1x"></i>
-                        </a> -->
-                    </span>
-                </div> <!-- end of social-container -->
-            </div> <!-- end of container -->
-        </div> <!-- end of footer -->
-        <!-- end of footer -->
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container px-4 sm:px-8">
+            <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">Las manifestaciones culturales de la parroquia Izamba son de
+                relevancia para promover el turismo en el lugar con la colaboración del GAD Parroquial que se dedica a
+                organizar eventos que generan atracción. <a class="text-indigo-600 hover:text-gray-500"
+                    href="mailto:email@domain.com"></a></h4>
+            <div class="social-container">
+                <span class="fa-stack">
+                    <a href="https://www.facebook.com/GAD-Parroquial-Izamba-486192714921253">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="https://gadizamba.gob.ec/index.php">
+                         <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-globe fa-stack-1x"></i> 
+                    </a>
+                </span>
+              
+            </div> <!-- end of social-container -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->
+    <!-- end of footer -->
 
 
-        <!-- Copyright -->
-        <div class="copyright">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-3">
-                <ul class="mb-4 list-unstyled p-small">
-                    <!-- <li class="mb-2"><a href="article.html">Article Details</a></li>
-                    <li class="mb-2"><a href="terms.html">Terms & Conditions</a></li>
-                    <li class="mb-2"><a href="privacy.html">Privacy Policy</a></li> -->
-                </ul>
-                <p class="pb-2 p-small statement">Copyright © <a href="https://github.com/shoniisrael/" class="no-underline">Michelle Herrera</a></p>
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container  px-4 sm:px-8">
+         
+            <p class="pb-2 text-center">Copyright © <a href="https://github.com/shoniisrael/"
+                    class="no-underline">Michelle Herrera</a></p>
 
-                <!-- <p class="pb-2 p-small statement">Distributed by :<a href="https://themewagon.com/" class="no-underline">Themewagon</a></p>
-            </div>  -->
+      </div>  
 
-        <!-- end of container -->
+            <!-- end of container -->
         </div> <!-- end of copyright -->
         <!-- end of copyright -->
 
@@ -689,5 +485,6 @@
         <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
         <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
         <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    </body>
+</body>
+
 </html>
