@@ -842,16 +842,16 @@ input[type='checkbox'] {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
   border-radius: 0.75rem;
-  height: 22rem;
+  height: 26rem;
 }
 
 .slider-1 .card-image {
-  width: 80px;
-  height: 80px;
+  width: 210px;
+  height: 150px;
   margin-right: auto;
   margin-bottom: 1.25rem;
   margin-left: auto;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 
 .slider-1 .testimonial-author {
